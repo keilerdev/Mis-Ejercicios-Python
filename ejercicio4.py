@@ -16,7 +16,7 @@ print("=" * 25)
 print("CONVERSOR DE UNIDADES".center(25))
 print("=" * 25)
 
-print(f"\n{far}°F = {mate.ceill(cel)}°C")
+print(f"\n{far}°F = {mate.ceil(cel)}°C")
 print(f"\n{mil} millas = {mate.floor(km)} km")
 print(f"\n{feet} pies = {mate.ceil(mt)} metros")
 print("=" * 25)
