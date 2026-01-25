@@ -55,7 +55,7 @@ proximo_cumple = dt(hoy_venezuela.year, nacimiento.month, nacimiento.day)
 if proximo_cumple < hoy_solo_fecha:
     proximo_cumple = dt(hoy_venezuela.year + 1, nacimiento.month, nacimiento.day)
 
-dias_faltantes = (proximo_cumple - hoy_solo_fecha).days
+dias_faltantes = (proximo_cumple - hoy_solo_fecha).days + 1
 
 
 
